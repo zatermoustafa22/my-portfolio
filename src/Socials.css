@@ -1,0 +1,38 @@
+.socials-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+}
+
+.socials-container h1 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #ffdd57, #fc9207);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.social-links {
+  display: flex;
+  gap: 40px;
+}
+
+.social-links a {
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #ffdd57;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  background: #ffdd57;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px #ffdd57;
+}

@@ -1,0 +1,81 @@
+/* Base navbar styles (desktop) */
+.navbar {
+  width: 100%;
+  padding: 20px 30px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* pushes content to edges */
+  flex-wrap: wrap; /* allow wrapping on small screens */
+  gap: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap; /* wrap buttons if needed */
+}
+
+.nav-links li button,
+.socials-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 10px 20px; /* reduced for mobile */
+  border-radius: 5px;
+}
+
+.nav-links li button:hover,
+.socials-btn:hover {
+  background-color: #ffdd57;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Social button */
+.socials-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ffdd57;
+  border: 2px solid #ffdd57;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #ffdd57, 0 0 20px #ffdd57;
+  margin-left: 0; /* remove fixed spacing */
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* stack items vertically */
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .nav-links li button,
+  .socials-btn {
+    width: 100%; /* full-width buttons */
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .socials-btn {
+    margin-top: 10px;
+    box-shadow: 0 0 8px #ffdd57, 0 0 15px #ffdd57;
+  }
+}
