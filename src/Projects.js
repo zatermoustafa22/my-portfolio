@@ -7,24 +7,20 @@ import berburry from './assets/berburry.jpg';
 
 export default function Projects() {
   const projects = [
-    { 
-      name: "Agences Immobilières", 
-      img: nterface, 
-      demo: "https://fakezaterberburry.netlify.app",  
-      repo: "https://github.com/zatermoustafa22/agence-immobiliere" 
-    },
+   
     { 
       name: "Exemple Boutique Burberry", 
       img: berburry, 
       demo: "https://fakezaterberburry.netlify.app", 
-      repo: "https://github.com/zatermoustafa22/fakeburbberywebsite" 
+      repo: "https://github.com/zatermoustafa22/boutique" 
     },
-    { 
-      name: "Boutique d'accessoires", 
-      img: nterface,
-      demo: "https://fakezaterberburry.netlify.app", 
-      repo: "https://github.com/zatermoustafa22/fakeburbberywebsite" 
+     { 
+      name: "Agences Immobilières", 
+      img: nterface, 
+      demo: "http://agence-immo.kesug.com/",  
+      repo: "https://github.com/zatermoustafa22/agence-immobiliere" 
     },
+   
   ];
 
   return (
