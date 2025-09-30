@@ -4,7 +4,7 @@ import './Home.css';
 
 import nterface from './assets/interface.jpg';
 import berburry from './assets/berburry.jpg';
-
+import quiz from "./assets/quiz.jpg";
 export default function Projects() {
   const projects = [
    
@@ -20,6 +20,12 @@ export default function Projects() {
       demo: "http://agence-immo.kesug.com/",  
       repo: "https://github.com/zatermoustafa22/agence-immobiliere" 
     },
+    { 
+  name: "Quiz Application", 
+  img: quiz,  
+  demo: "https://quizaterapp.netlify.app", 
+  repo: "https://github.com/zatermoustafa22/quiz-react" 
+},
    
   ];
 
