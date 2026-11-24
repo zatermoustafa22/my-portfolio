@@ -17,7 +17,7 @@ export default function Projects() {
      { 
       name: "Agences Immobilières", 
       img: nterface, 
-      demo: "http://agence-immo.kesug.com/",  
+      demo: "https://dz-realestate.lovestoblog.com/",  
       repo: "https://github.com/zatermoustafa22/agence-immobiliere" 
     },
     { 
